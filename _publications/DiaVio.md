@@ -3,7 +3,7 @@ title: "DiaVio: LLM-Empowered Diagnosis of Safety Violations in ADS Simulation T
 collection: publications
 permalink: /publication/DiaVio
 excerpt: 'Automated Driving System, Scenario-based Testing, Large Language Models, Violation Diagnosis'
-date: 2009-10-01
+date: 2024
 venue: 'Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA ’24)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://leason-ly.github.io/files/DiaVio.pdf'

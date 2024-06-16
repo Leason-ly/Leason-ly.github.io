@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Leon / myHomePage"
+title                    : "Leon / Academic website"
 title_separator          : "-"
 name                     : &name "You Lu"
 description              : &description "myHomePage"
@@ -24,7 +24,7 @@ author:
   avatar           : "photo.png"
   name             : "You Lu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student in Software Engineering"
+  bio              : "PhD student in the School of Computer Science and Technology"
   location         : "Shanghai"
   employer         : "Fudan University"
   uri              : # URL
