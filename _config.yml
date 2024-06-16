@@ -21,7 +21,7 @@ repository               : "Leason-ly/Leason-ly.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo.png"
   name             : "You Lu"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Software Engineering"
