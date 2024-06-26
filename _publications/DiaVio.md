@@ -6,7 +6,7 @@ excerpt: 'Automated Driving System, Scenario-based Testing, Large Language Model
 date: 2024-09-16
 venue: 'Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA ’24)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://leason-ly.github.io/files/DiaVio.pdf'
+# paperurl: 'http://leason-ly.github.io/files/DiaVio.pdf'
 citation: 'You Lu, Yifan Tian, Yuyang Bi, Bihuan Chen, and Xin Peng. 2024. DiaVio: LLM-Empowered Diagnosis of Safety Violations in ADS Simulation Testing. In Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA ’24), September 16–20, 2024, Vienna, Austria. ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3650212.3652135'
 ---
 
