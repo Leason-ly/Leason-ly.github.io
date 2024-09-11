@@ -42,7 +42,7 @@ Collaborators
 
 > [Yifan Tian](https://tianyifan-vincent.github.io/) @ Fudan University
 
-> [Dingji Wang]( ) @ Fudan University
+> [Dingji Wang](https://kiki2049.github.io/) @ Fudan University
 
 
 
