@@ -10,7 +10,7 @@ redirect_from:
 About Me
 ------
 
-👔 I am a PhD student in [School of Computer Science and Technology]([https://cs.fudan.edu.cn/]), [Fudan University]([https://www.fudan.edu.cn/en/]) under the supervision of Prof. [Bihuan Chen]([https://chenbihuan.github.io/]) and Prof. [Xin Peng]([https://cspengxin.github.io/]), mentored by Prof. Bihuan Chen. I received my bachelor degree in software engineering from [Soochow University]([http://eng.suda.edu.cn/]) in 2022.
+👔 I am a PhD student in [School of Computer Science and Technology](https://cs.fudan.edu.cn/), [Fudan University](https://www.fudan.edu.cn/en/) under the supervision of Prof. [Bihuan Chen](https://chenbihuan.github.io/) and Prof. [Xin Peng](https://cspengxin.github.io/), mentored by Prof. Bihuan Chen. I received my bachelor degree in software engineering from [Soochow University](http://eng.suda.edu.cn/) in 2022.
 
 
 🌱 I currently major in software engineering and my research interests AI systems engineering, automatic driving system and simulation testing.
