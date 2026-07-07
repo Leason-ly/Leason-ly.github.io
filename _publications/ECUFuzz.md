@@ -6,7 +6,7 @@ excerpt: 'Firmware, ECU Firmware Fuzzing, Serial Peripheral Interface, Diagnosti
 date: 2025-06-25
 venue: 'Proceedings of the 34rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA ’25)'
 paperurl: 'http://leason-ly.github.io/files/issta25-chen-ecufuzz.pdf'
-citation: 'Qicai Chen, Kun Hu, Sichen Gong, Bihuan Chen, Zikui Kong, Haowen Jiang, Bingkun Sun, You Lu, and Xin Peng. 2025. Structure-Aware, Diagnosis-Guided ECU Firmware Fuzzing. Proc. ACM Softw. Eng. 2, ISSTA, Article ISSTA039 (July 2025), 23 pages. https://doi.org/10.1145/3728914'
+# citation: 'Qicai Chen, Kun Hu, Sichen Gong, Bihuan Chen, Zikui Kong, Haowen Jiang, Bingkun Sun, You Lu, and Xin Peng. 2025. Structure-Aware, Diagnosis-Guided ECU Firmware Fuzzing. Proc. ACM Softw. Eng. 2, ISSTA, Article ISSTA039 (July 2025), 23 pages. https://doi.org/10.1145/3728914'
 ---
 
 Electronic Control Units (ECUs), providing a wide range of functions from basic control functions to safety-critical functions, play a critical role in modern vehicles. Fuzzing has emerged as an effective approach to ensure the functional safety and automotive security of ECU firmware. However, existing fuzzing approaches focus on the inputs from other ECUs through external buses (e.g., CAN), but neglect the inputs from internal peripherals through on-board buses (e.g., SPI). Due to the restricted input space exploration, they fail to comprehensively fuzz ECU firmware. Moreover, existing fuzzing approaches often lack visibility into ECU firmware’ internal states but rely on limited feedback (e.g., message timeouts or hardware indicators), hindering their effectiveness.

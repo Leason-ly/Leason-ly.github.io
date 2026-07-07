@@ -1,0 +1,13 @@
+---
+title: "ProfMal: Detecting Malicious NPM Packages by the Synergy between Static and Dynamic Analysis"
+collection: publications
+permalink: /publication/ProfMal
+excerpt: 'Supply Chain, Security'
+date: 2025-11-16
+venue: 'Proceedings of 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025)'
+# slidesurl: 'http://academicpages.github.io/files/DiaVio_slide-chen.pptx'
+paperurl: 'http://leason-ly.github.io/files/ase25-huang-profmal.pdf'
+# citation: 'You Lu, Yifan Tian, Yuyang Bi, Bihuan Chen, and Xin Peng. 2024. DiaVio: LLM-Empowered Diagnosis of Safety Violations in ADS Simulation Testing. In Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA ’24), September 16–20, 2024, Vienna, Austria. ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3650212.3652135'
+---
+
+Open source software (OSS) has become the foundation of modern applications, but its transitive dependencies make it especially vulnerable to supply chain attacks. One common tactic is to inject malicious code into third-party packages. NPM, in particular, due to its widespread use and large volume of packages, has become the popular target of malicious code injection. While various detectors have been proposed, they suffer three limitations, ie, inadequate behavior modeling of obfuscated code, ignoring object-centric features of JavaScript, and lack of synergy between static and dynamic analysis. These limitations lead to imprecise modeling of program behavior and hinder detection effectiveness. To address these limitations, we propose PROFMAL to identify malicious NPM packages, which leverages the synergy between static and dynamic analysis to construct behavior graphs for each package. Specifically, our static analysis constructs the behavior graphs through object-sensitive analysis, while identifying sensitive API calls and locating statically unresolved calls. Our dynamic analysis augments the behavior graphs by resolving those statically unresolved calls. Based on these comprehensive behavior graphs, we train a graph-based classifier to identify maliciousness. Our evaluation has indicated that PROFMAL achieves the highest F1-score of 92.4%, outperforming the state-of-the-arts by 6.2% to 48.8%. During a three-month real-world detection, PROFMAL has detected 496 previously unknown malicious NPM packages, and all of them have been confirmed and removed from NPM.
