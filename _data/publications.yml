@@ -5,7 +5,7 @@ main:
     conference_short: TOSEM
     conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2026.
     pdf: https://leason-ly.github.io/files/DynNPC.pdf
-    image: ./assets/img/cerebro.png
+    image: ./assets/img/DynNPC.png
 
   - title: "Lifting the Veil on Composition, Risks, and Mitigations of the Large Language Model Supply Chain"
     authors: Kaifeng Huang, Bihuan Chen, <strong>You Lu</strong>, Susheng Wu, Dingji Wang, Yiheng Huang, Haowen Jiang, Zhuotong Zhou, Junming Cao, Xin Peng
@@ -19,49 +19,56 @@ main:
     conference_short: AAAI
     conference: Proceedings of the AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2026.
     pdf: https://leason-ly.github.io/files/aaai26-jiang-expertad.pdf
-    image: ./assets/img/vision.png
+    image: ./assets/img/ExpertAD.png
 
   - title: "Poirot: Automatic Root Cause Analysis of Safety Violations in ADS Simulation Testing via Hypothetical Reasoning"
     authors: <strong>You Lu</strong>, Dingji Wang, Kun Zhang, Bihuan Chen, Jiyan Zhang, Xin Peng
     conference_short: ISSTA
     conference: International Symposium on Software Testing and Analysis <strong>(ISSTA)</strong>, 2026.
     pdf: https://leason-ly.github.io/files/Poirot.pdf
-    image: ./assets/img/mystique.png
+    image: ./assets/img/Poirot.png
+
+  - title: "AutoMerge: Search-Based Model Merging Framework for Effective Model Reuse"
+    authors: <strong>You Lu</strong>, Jiyang Zhang, Bihuan Chen, Chaofeng Sha, Dingji Wang, Xin Peng
+    conference_short: Preprint
+    conference: arXiv preprint arXiv
+    pdf: https://arxiv.org/pdf/2601.22748
+    image: ./assets/img/AutoMerge.png
 
   - title: "Understanding Performance Problems in CUDA Programs"
     authors: Yuyang Bi, Junming Cao, <strong>You Lu</strong>, Bihuan Chen, Tianwei Gan, Dingji Wang, Xin Peng
     conference_short: FSE
     conference: International Conference on the Foundations of Software Engineering <strong>(FSE)</strong>, 2026.
     pdf: https://leason-ly.github.io/files/fse2026-bi-cuda.pdf
-    image: ./assets/img/magneto.png
+    image: ./assets/img/cuda.png
 
   - title: "ProfMal: Detecting Malicious NPM Packages by the Synergy between Static and Dynamic Analysis"
     authors: Yiheng Huang, Wen Zheng, Susheng Wu, Bihuan Chen, <strong>You Lu</strong>, Zhuotong Zhou, Yiheng Cao, Xiaoyu Li, Xin Peng
     conference_short: ASE
     conference: International Conference on Automated Software Engineering <strong>(ASE)</strong>, 2025.
     pdf: https://leason-ly.github.io/files/ase25-huang-profmal.pdf
-    image: ./assets/img/profmal.png
+    image: ./assets/img/ProfMal.png
 
   - title: "Argus: Resilience-Oriented Safety Assurance Framework for End-to-End ADSs"
     authors: Dingji Wang, <strong>You Lu</strong>, Bihuan Chen, Shuo Hao, Haowen Jiang, Yifan Tian, Xin Peng
     conference_short: ASE
     conference: International Conference on Automated Software Engineering <strong>(ASE)</strong>, 2025.
     pdf: https://leason-ly.github.io/files/ase25-wang-argus.pdf
-    image: ./assets/img/antman.png
+    image: ./assets/img/Argus.png
 
   - title: "RegTrieve: Reducing System-Level Regression Errors for Machine Learning Systems via Retrieval-Enhanced Ensemble"
     authors: Junming Cao, Xuwen Xiang, Mingfei Cheng, Bihuan Chen, Xinyan Wang, <strong>You Lu</strong>, Chaofeng Sha, Xiaofei Xie, Xin Peng
     conference_short: FSE
     conference: International Conference on the Foundations of Software Engineering <strong>(FSE)</strong>, 2025.
     pdf: https://leason-ly.github.io/files/fse25-cao-regtrieve.pdf
-    image: ./assets/img/spiderScan.png
+    image: ./assets/img/RegTrieve.png
 
   - title: "Structure-Aware, Diagnosis-Guided ECU Firmware Fuzzing"
     authors: Qicai Chen, Kun Hu, Sichen Gong, Bihuan Chen, Zikui Kong, Haowen Jiang, Bingkun Sun, <strong>You Lu</strong>, Xin Peng
     conference_short: ISSTA
     conference: International Symposium on Software Testing and Analysis <strong>(ISSTA)</strong>, 2025.
     pdf: https://leason-ly.github.io/files/issta25-chen-ecufuzz.pdf
-    image: ./assets/img/cerebro.png
+    image: ./assets/img/ECUFuzz.png
 
   - title: "DiaVio: LLM-Empowered Diagnosis of Safety Violations in ADS Simulation Testing"
     authors: <strong>You Lu</strong>, Yifan Tian, Yuyang Bi, Bihuan Chen, Xin Peng
@@ -69,4 +76,18 @@ main:
     conference: International Symposium on Software Testing and Analysis <strong>(ISSTA)</strong>, 2024.
     pdf: https://leason-ly.github.io/files/DiaVio-final.pdf
     slides: https://leason-ly.github.io/files/DiaVio_slide-chen.pptx
-    image: ./assets/img/vision.png
+    image: ./assets/img/DiaVio.png
+
+  - title: "RoadGen: Generating road scenarios for autonomous vehicle testing"
+    authors: Fan Yang, <strong>You Lu</strong>, Bihuan Chen, Peng Qin, Xin Peng
+    conference_short: Preprint
+    conference: arXiv preprint arXiv
+    pdf: https://arxiv.org/pdf/2411.19577
+    image: ./assets/img/RoadGen.png
+
+  - title: "TigAug: Data Augmentation for Testing Traffic Light Detection in Autonomous Driving Systems"
+    authors: <strong>You Lu</strong>, Dingji Wang, Kaifeng Huang, Bihuan Chen, Xin Peng
+    conference_short: Preprint
+    conference: arXiv preprint arXiv
+    pdf: http://arxiv.org/pdf/2507.05932
+    image: ./assets/img/TigAug.png
