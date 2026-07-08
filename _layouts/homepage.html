@@ -1,0 +1,116 @@
+---
+layout: compress
+author_profile: false
+---
+
+{% include base_path %}
+
+{% if site.author.avatar contains "://" %}
+  {% assign homepage_avatar = site.author.avatar %}
+{% else %}
+  {% assign homepage_avatar = site.author.avatar | prepend: "/images/" | prepend: base_path %}
+{% endif %}
+
+{% assign homepage_name = site.author.name | default: site.name | default: site.title %}
+{% assign homepage_role = site.author.bio | default: site.description %}
+{% assign homepage_affiliation = site.author.employer %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    <title>{{ homepage_name }}{% if homepage_affiliation %} | {{ homepage_affiliation }}{% endif %}</title>
+
+    <meta charset="utf-8">
+    {% include seo.html %}
+    <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+    </script>
+
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+    {% include head/custom.html %}
+    <meta http-equiv="cleartype" content="on">
+  </head>
+  <body class="homepage-page">
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <main id="main" class="homepage-main" role="main">
+      <div class="wrapper homepage-shell">
+        <section class="homepage-hero" aria-label="Profile">
+          <div class="homepage-portrait">
+            <img src="{{ homepage_avatar }}" alt="{{ homepage_name }}">
+          </div>
+
+          <div class="homepage-intro">
+            <p class="homepage-kicker">Academic homepage</p>
+            <h1>{{ homepage_name }}</h1>
+
+            {% if homepage_role %}
+              <p class="homepage-role">{{ homepage_role }}</p>
+            {% endif %}
+
+            {% if homepage_affiliation %}
+              <p class="homepage-affiliation">
+                {% if site.author.uri %}
+                  <a href="{{ site.author.uri }}" rel="noopener">{{ homepage_affiliation }}</a>
+                {% else %}
+                  {{ homepage_affiliation }}
+                {% endif %}
+              </p>
+            {% endif %}
+
+            <p class="homepage-meta">
+              {% if site.author.location %}
+                <span>{{ site.author.location }}</span>
+              {% endif %}
+              {% if site.author.email %}
+                <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+              {% endif %}
+            </p>
+
+            <div class="homepage-social" aria-label="Social links">
+              {% if site.author.googlescholar %}
+                <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar">
+                  <i class="ai ai-google-scholar" aria-hidden="true"></i>
+                </a>
+              {% endif %}
+              {% if site.author.orcid %}
+                <a href="{{ site.author.orcid }}" aria-label="ORCID">
+                  <i class="ai ai-orcid" aria-hidden="true"></i>
+                </a>
+              {% endif %}
+              {% if site.author.github %}
+                <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              {% endif %}
+              {% if site.author.email %}
+                <a href="mailto:{{ site.author.email }}" aria-label="Email">
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        </section>
+
+        <article class="homepage-content">
+          {{ content }}
+        </article>
+      </div>
+    </main>
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
