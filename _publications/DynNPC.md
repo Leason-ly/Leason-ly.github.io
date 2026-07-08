@@ -1,0 +1,13 @@
+---
+title: "DynNPC: Finding More Violations Induced by ADS in Simulation Testing via Dynamic NPC Behavior Generation"
+collection: publications
+permalink: /publication/DiaVio
+excerpt: 'Automated Driving System, Scenario-based Testing, Large Language Models, Violation Diagnosis'
+date: 2026-06-26
+venue: 'ACM Transactions on Software Engineering and Methodology (TOSEM)'
+# slidesurl: 'http://academicpages.github.io/files/DiaVio_slide-chen.pptx'
+paperurl: 'http://leason-ly.github.io/files/DynNPC.pdf'
+citation: 'Lu, You, Yifan Tian, Kun Zhang, Dingji Wang, Bihuan Chen, Haowen Jiang, Qicai Chen, Kun Hu, and Xin Peng. 2026. DynNPC: Finding More Violations Induced by ADS in Simulation Testing via Dynamic NPC Behavior Generation. ACM Transactions on Software Engineering and Methodology. Just Accepted. https://doi.org/10.1145/3822178'
+---
+
+Recently, a number of simulation testing approaches have been proposed to generate diverse driving scenarios for autonomous driving systems (ADSs) testing. However, many existing search-based approaches primarily determine NPC behaviors before scenario execution, which limits their ability to model interactions that depend on traffic signals and the Ego vehicle's real-time behavior. As a result, some reported violations may be dominated by unreasonable NPC behaviors, reducing the effectiveness of finding violations induced by the ADS, while the vast search space of NPC behaviors also limits efficiency. To address these limitations, we propose a novel search-based testing framework, DynNPC, to generate more violation scenarios induced by the ADS. Specifically, DynNPC enables NPC vehicles to make maneuver decisions and generate trajectories according to traffic signals and the real-time behavior of the Ego vehicle, using different driving strategies. DynNPC further integrates this dynamic behavior generation with a genetic algorithm-based scenario configuration generator to improve the search for Ego-induced violations. We compare DynNPC with four state-of-the-art scenario-based testing approaches. Our evaluation has demonstrated that DynNPC increases the proportion of violations induced by the ADS among all reported violations, on average, by 125.21%, and improves the number of discovered unique violation patterns induced by the ADS by at least 39.71%. Besides, DynNPC reduces the time to find the first violation induced by the ADS and the average time to find one violation induced by the ADS by 82.13% and 65.70%, respectively. We further conduct ablation studies along with sensitivity analyses of key parameters, and demonstrate the robustness and portability of DynNPC.
