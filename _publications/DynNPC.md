@@ -1,7 +1,7 @@
 ---
 title: "DynNPC: Finding More Violations Induced by ADS in Simulation Testing via Dynamic NPC Behavior Generation"
 collection: publications
-permalink: /publication/DiaVio
+permalink: /publication/DynNPC
 excerpt: 'Automated Driving System, Scenario-based Testing, Large Language Models, Violation Diagnosis'
 date: 2026-06-26
 venue: 'ACM Transactions on Software Engineering and Methodology (TOSEM)'

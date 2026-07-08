@@ -1,9 +1,9 @@
 ---
 title: "Poirot: Automatic Root Cause Analysis of Safety Violations in ADS Simulation Testing via Hypothetical Reasoning"
 collection: publications
-permalink: /publication/DiaVio
+permalink: /publication/Poirot
 excerpt: 'Automated Driving System, Scenario-based Testing, Large Language Models, Violation Diagnosis'
-date: 2026-04-16
+date: 2025-12-22
 venue: 'Proceedings of the 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA ’26)'
 # slidesurl: 'http://academicpages.github.io/files/DiaVio_slide-chen.pptx'
 paperurl: 'http://leason-ly.github.io/files/Poriot.pdf'
