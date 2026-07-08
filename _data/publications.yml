@@ -47,7 +47,7 @@ main:
     conference_short: ASE
     conference: International Conference on Automated Software Engineering <strong>(ASE)</strong>, 2025.
     pdf: https://leason-ly.github.io/files/ase25-huang-profmal.pdf
-    image: ./assets/img/ProfMal.png
+    image: ./assets/img/profmal.png
 
   - title: "Argus: Resilience-Oriented Safety Assurance Framework for End-to-End ADSs"
     authors: Dingji Wang, <strong>You Lu</strong>, Bihuan Chen, Shuo Hao, Haowen Jiang, Yifan Tian, Xin Peng
