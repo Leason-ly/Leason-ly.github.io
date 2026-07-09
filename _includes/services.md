@@ -1,3 +1,6 @@
 ## Services
 
-<p style="margin:0 0 20px;">Journal of Software: Evolution and Process, <strong>Reviewer</strong>, 2026</p>
+<ul style="margin:0 0 5px;">
+  <li>2026 - Journal of Software: Evolution and Process, <strong>Reviewer</strong></li>
+</ul>
+
