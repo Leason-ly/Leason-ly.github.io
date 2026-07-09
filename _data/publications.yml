@@ -15,7 +15,7 @@ main:
     image: ./assets/img/llm_supply_chain.png
 
   - title: "ExpertAD: Enhancing Autonomous Driving Systems with Mixture of Experts"
-    authors: Haowen Jiang, Xun Huang, <strong>You Lu</strong>, Dingji Wang, Yiheng Cao, Chaofeng Sha, Xin Peng
+    authors: Haowen Jiang, Xinyu Huang, <strong>You Lu</strong>, Dingji Wang, Yiheng Cao, Chaofeng Sha, Xin Peng
     conference_short: AAAI
     conference: Proceedings of the AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2026.
     pdf: https://leason-ly.github.io/files/aaai26-jiang-expertad.pdf
