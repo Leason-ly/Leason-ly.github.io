@@ -14,3 +14,5 @@ I am a PhD student in the [College of Computer Science and Artificial Intelligen
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/awards.md %}
+
+{% include_relative _includes/services.md %}
