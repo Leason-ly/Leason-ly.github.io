@@ -8,7 +8,7 @@ main:
     image: ./assets/img/DynNPC.png
 
   - title: "Lifting the Veil on Composition, Risks, and Mitigations of the Large Language Model Supply Chain"
-    authors: Kaifeng Huang, Bihuan Chen, <strong>You Lu</strong>, Susheng Wu, Dingji Wang, Yiheng Huang, Haowen Jiang, Zhuotong Zhou, Junming Cao, Xin Peng
+    authors: Kaifeng Huang, Bihuan Chen, <strong>You Lu</strong> (corresponding author), Susheng Wu, Dingji Wang, Yiheng Huang, Haowen Jiang, Zhuotong Zhou, Junming Cao, Xin Peng
     conference_short: TOSEM
     conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2026.
     pdf: https://leason-ly.github.io/files/tosem-huang-llm.pdf

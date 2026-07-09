@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a PhD student in the [College of Computer Science and Artificial Intelligence](https://ai.fudan.edu.cn/) at [Fudan University](https://www.fudan.edu.cn/en/), under the under the supervision of Prof. [Bihuan Chen](https://chenbihuan.github.io/) and Prof. [Xin Peng](https://cspengxin.github.io/), mentored by Prof. Bihuan Chen. I received my bachelor's degree in software engineering from [Soochow University](http://eng.suda.edu.cn/) in 2022.
+I am a PhD student in the [College of Computer Science and Artificial Intelligence](https://ai.fudan.edu.cn/) at [Fudan University](https://www.fudan.edu.cn/en/), under the supervision of Prof. [Bihuan Chen](https://chenbihuan.github.io/) and Prof. [Xin Peng](https://cspengxin.github.io/), mentored by Prof. Bihuan Chen. I received my bachelor's degree in software engineering from [Soochow University](http://eng.suda.edu.cn/) in 2022.
 
 ## Research Interests
 
